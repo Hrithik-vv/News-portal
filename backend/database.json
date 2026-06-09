@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "id": "admin-1",
+      "name": "Elena Vance",
+      "email": "newsAdmin",
+      "bio": "Elena Vance has led the NexWireroom for over a decade, specializing in investigative journalism and digital transformation. Under her leadership, the portal has won multiple editorial excellence awards for its transparency and data-driven reporting.",
+      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB",
+      "password": "$2a$10$U6pSspkVuAMGLRzgjn/CnOdr20EVAGCByQXK.NHBqZ68wUlllnh8i"
+    }
+  ],
+  "news": [
+    {
+      "id": "news-1",
+      "title": "The Quantum Leap: Global Markets React to First Commercial Fusion Milestone",
+      "content": "Scientists in Geneva confirm a sustained energy output that surpasses the ignition threshold, signaling a new era for clean energy and global geopolitical shifts. The experimental reactor, designated Helios-IV, maintained a fusion reaction for 48 consecutive hours, producing a net positive gain of 120 megawatts.\n\nIndustrial leaders are already calling it the 'Milestone of the Century.' Financial markets responded immediately, with renewable energy stocks surging and fossil fuel options experiencing a sharp correction. The geopolitical ramifications are expected to unfold over the next decade as nations adjust their energy independence strategies.\n\nFederal regulations are now being drafted to standardise commercial grid integration, marking the official transition of fusion from physics laboratories to municipal infrastructure.",
+      "category": "Tech",
+      "subcategory": "AI & MACHINE LEARNING",
+      "status": "Published",
+      "publishedAt": "2026-06-08T10:00:00.000Z",
+      "scheduledAt": "",
+      "readTime": 8,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBGhwO4HaDvObU4P_vEy51bfCpKIvgQAZiqOWptvydF0iv0muhM2H-OMj9S7RkHD1ugaKcsMXrjkFI8xUfszrbv97yJBrkqnVhP4PKRJFKQYfcgMKvdrDEV2AVkYe3ZMrKrcTwX1ynFA8HAIxCEZGjJzkor7S5AaB21KOp9K3gYjR1A6JgZsbxcfXuJCzy4i6n2eyq8iD9fRGJIGO7kV-MSve_DiSlvSy3FVNgth3WqYymWf4RJ-X482Zd0-tP16qQGPuCtQRFxDWHO",
+      "author": {
+        "name": "Elena Vance",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB"
+      }
+    },
+    {
+      "id": "news-2",
+      "title": "AI Ethics Board Resigns Over Security Concerns",
+      "content": "Concerns over rapid deployment of autonomous systems lead to high-level exits at Silicon Valley's leading research firm. Five prominent members of the board released a joint statement citing 'irreconcilable differences' regarding safety thresholds and commercial deployment pressure.\n\nThe resignation has reignited the global debate on algorithmic accountability. Industry analysts suggest this could lead to stricter regulatory oversight and standardisation for consumer products incorporating deep neural models.\n\nThe research firm has announced plans to form a new advisory committee immediately, though public trust has taken a notable hit.",
+      "category": "Tech",
+      "subcategory": "Artificial Intelligence",
+      "status": "Published",
+      "publishedAt": "2026-06-07T14:30:00.000Z",
+      "scheduledAt": "",
+      "readTime": 4,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBi4iJyUyWApQ49Oxgtd8lSj3Mmf8D4k9cqws-YEqIz0NRF-_W6rniTGnpdsOqJpwtSdQu7M-3vXKbnWZWObrjJngkE3pEv-5h-xGnvS2fGyByLYR33ctVofBzxH_xujOd4kXXYVOOsEFQZDn0nxkGJQUKiDn_ksgJrMfckm2MHMrD1r-tsH5SDzZT4_2gsZw43stoBrDp3cW5CIMdyM2SoUPLkaKOJ010NUWIyOASOhyQz7-aOKCffJl0bpfQOVbZnUnCF4K7jnZJl",
+      "author": {
+        "name": "Elena Vance",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB"
+      }
+    },
+    {
+      "id": "news-3",
+      "title": "Inflation Cools: Central Banks Signal Rate Pause",
+      "content": "New economic data suggests a stabilizing global market as supply chain bottlenecks continue to ease across major sectors. Consumer price indices rose by a modest 0.1% last month, beating market forecasts and bringing the annualised rate down to 2.4%.\n\nTreasury representatives stated that the monetary interventions of the past two quarters are yielding results. While energy and housing costs remain slightly elevated, core indicators reflect a sustainable deceleration.\n\nInvestors responded with optimism, sending index values to record highs as confidence in a soft landing grows stronger.",
+      "category": "Economy",
+      "subcategory": "Global Markets",
+      "status": "Published",
+      "publishedAt": "2026-06-06T09:15:00.000Z",
+      "scheduledAt": "",
+      "readTime": 6,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBwMGWZjLAcMCovuihjjC-4Jd-AKloDv7qCWf12wFiJCMg4ZPo55sYZ4ZgDH5_-tZdncTQTFaqXNinp1hH2dL2lz2gZdrBfIIjNo2hXiWZa7zUMi4i4mwTWS41am6uYinkz_zJLLvT-fhaExdtRaCW_oQH60dUaTcEiQDfEP2SYmL-tf0XvmOKtQQoVgPZYVChcdfAKxo5hv9__-HOTFZuQdz6btszKRJWjjZuNPE9nyPSVYPHiGHw-duRbit-9m4h1atmbe0tnLBh4",
+      "author": {
+        "name": "Elena Vance",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB"
+      }
+    },
+    {
+      "id": "news-4",
+      "title": "Olympic Committee Unveils Sustainable Venue Plan",
+      "content": "The 2032 host city committee has pledged carbon-neutral games through innovative modular architecture and renewable integration. Rather than constructing permanent stadiums, the committee will utilize pre-assembled structures that can be dismantled and repurposed post-event.\n\nLocal solar grids and hydrogen cells will supply 100% of the energy requirements for the athlete village and performance centers.\n\nEnvironmental groups have praised the plan as a blueprint for the future of international sports gathering, setting a high benchmark for subsequent bids.",
+      "category": "Sports",
+      "subcategory": "Olympics",
+      "status": "Published",
+      "publishedAt": "2026-06-05T11:00:00.000Z",
+      "scheduledAt": "",
+      "readTime": 5,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDiVgydWe4EvCBfRORCqihmSMgbCamLzgUjq4w4RGLemUmKPLFBCMSCATOlyDm2GYqrV2Lai-_GJlUre4hUwgVs64t0Rc9XMwTOovjwGecsFQo11rxZO5BmrREr-VDmz-hHLT9_S5_S18fw3mAhkj5yxkOL7Xq7VVQtrgpW9xpX4O53PWAMh9fOd_KA1XudLZYeempZLBK6CQcM1iQ9SwU-GrDNFl4jvqU-LG1q-ITK3VWPIkjoOHZGsdfkqRMnH6h2A9vv8JgBRNv3",
+      "author": {
+        "name": "Elena Vance",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB"
+      }
+    },
+    {
+      "id": "news-5",
+      "title": "Breakthrough Vaccine Shows Promise for Rare Strain",
+      "content": "Phase 3 trials yield 98% efficacy in a groundbreaking mRNA approach targeting neglected tropical diseases. The therapeutic, formulated by a coalition of public laboratories, offers long-term protection against the endemic Lassa variant.\n\nDistribution logistics are already being organized, with priority access granted to high-risk zones.\n\nThe global health community has welcomed the data, citing it as proof of the versatility and rapid design cycles allowed by modern platform immunologies.",
+      "category": "Health",
+      "subcategory": "Medical Science",
+      "status": "Published",
+      "publishedAt": "2026-06-04T16:00:00.000Z",
+      "scheduledAt": "",
+      "readTime": 8,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAWoMqx9hRZHZXzI2FNa8qbkPEyw360IW5WvXpvp7n8j-Uj4TK7Q07Ql29jSUxZx7-K7gbzXJubNmmYu2rcHubAk5xSryYG28PPaKcOx3-jJZYvuy6iB0zgxxboRIoLajBk0Q_5yZEMijxOOlLpcmgaOZEg1ptbWDrH0bqqMYx5V7TU2-MY6D4eDDi7ZgeNgbM6yy-y9gKO0ZNnR5Ejg0NutUaSg_BjI2j8HEdECF91D6UHevWq8ViROlE91Rdz3bUsAJUl2pde1Iaf",
+      "author": {
+        "name": "Elena Vance",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB"
+      }
+    },
+    {
+      "id": "news-6",
+      "title": "The Silicon Plateau: Why Moore's Law is Shifting Toward Specialized Co-Processors",
+      "content": "General-purpose computing is hitting a thermal wall, leading manufacturers to invest billions in NPU and GPU-integrated architectures for the next decade. Standard CPU scaling has slowed as transistors approach physical atomic boundaries, causing unsustainable heat generation at higher clock speeds.\n\nTo counter this, semiconductor firms are moving toward specialized computing blocks designed for specific algorithms, such as matrix multiplication for AI and cryptographic routines.\n\nThis architecture shift promises substantial power efficiency gains, although it introduces software compilation hurdles as compilers must be refactored to support heterogeneous targets.",
+      "category": "Tech",
+      "subcategory": "Hardware",
+      "status": "Published",
+      "publishedAt": "2026-06-03T13:40:00.000Z",
+      "scheduledAt": "",
+      "readTime": 6,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDevkZgWKkvbf3EHVFw0Wsmi-rwQjT2WZbVZVwdNq8Mcc0NomN0ik_GBslkdwIPhZgblZvqli8h_pRey3gt9gfy7NOTMFWRBukWZBcTfr9oswSYXgbGCEn4vyXDC0F7Ow24tUz-w50dyHy-ls3wTUuECECxq4i-xLY2m3Mg-c4RfS5m-Qcr9snn740n1GFwP0qy0P3viu-62TlG3vLl9v5kDe8qUxt2CSDQwTq2BtsHx8juooYS6PlEXNxYs_F1IJkmMhVCCBOusUMS",
+      "author": {
+        "name": "Elena Vance",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB"
+      }
+    },
+    {
+      "id": "news-7",
+      "title": "The Architecture of Silence: Why Urban Planning is Failing Our Mental Health",
+      "content": "A deep dive into how city noise and concrete density are restructuring human neural pathways. Urban centers are louder and more crowded than ever, with natural soundscapes completely replaced by low-frequency vehicular hums and high-decibel construction alerts.\n\nNeuroscientific studies are beginning to trace the correlations between chronic acoustic stress and elevated cortisol levels. Modern grid plans prioritize thoroughfare traffic over public gathering spaces, leaving residents with minimal options for mental restoration.\n\nArchitects are arguing for sensory-focused zoning laws to construct quiet sanctuaries within high-density communities.",
+      "category": "Politics",
+      "subcategory": "Urbanism",
+      "status": "Published",
+      "publishedAt": "2026-06-02T08:00:00.000Z",
+      "scheduledAt": "",
+      "readTime": 10,
+      "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCmxNzAUCDE9nJoKdd4Uts3jxk_JEAq8cXTE2qZluLFhQLeBd7Oz52rFNtjqIDcNz48PZUSsTeweucV019l_H2vuyyXBmV0z3jbFVia-vVM12LjMKFw7aEmjxVb2hg7L6asOo0h9d12EhgwJuokTZ48bV54w5dl6GCmpO_ZmMrJnMFZOpzTXGMfX46jZfICbi46k6uhQwW9hpZm8bKuwd6vlJhEQ06QqrdyhPAGZTy6Vc9hamslPlWddPGI-lQSVKMWZ5XSrQbhHeL2",
+      "author": {
+        "name": "Elena Vance",
+        "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB"
+      }
+    }
+  ]
+}
