@@ -2,24 +2,24 @@
   "users": [
     {
       "id": "admin-1",
-      "name": "Elena Vance",
-      "email": "newsAdmin",
-      "bio": "Elena Vance has led the NexWireroom for over a decade, specializing in investigative journalism and digital transformation. Under her leadership, the portal has won multiple editorial excellence awards for its transparency and data-driven reporting.",
-      "avatar": "https://lh3.googleusercontent.com/aida-public/AB6AXuBm7pqSHIQdbp6vMe41ishb6FNfP8yPT-aVYAlcz9chiiSdd-kAcPvQ4YfQgb21ek3qnIUtdCzGYSAlY_rwgQz7b7Uj9JpHbdwSoKUWS-Csfy2m03z4E9QxHBbccSklkab_0fxs96f0JBOlsbc-WfKGgLh4iH3w1Gt9gMn4uEMOkDQdC0I40gUUmnIKOu4x_aYfsLDZXndYbfwTeTgMgCzIDrjYyNuuONPrRdikG9puV8AFoPAbGGhNEsKySqRTQ7vQfXMrqown5wyB",
-      "password": "$2a$10$U6pSspkVuAMGLRzgjn/CnOdr20EVAGCByQXK.NHBqZ68wUlllnh8i"
+      "name": "Veniam eius illum ",
+      "email": "Dolore nihil et cons",
+      "bio": "Nihil cum sunt faci",
+      "avatar": "https://www.shutterstock.com/shutterstock/photos/2695542473/display_1500/stock-photo-portrait-of-confident-young-indian-business-executive-man-looking-at-camera-with-hands-folded-at-2695542473.jpg",
+      "password": "$2a$10$YC57H6dEmC7ZjGQk6rMG8OnlDbVieABHU/ui/.b6ZsKv6OA7KKrj6"
     }
   ],
   "news": [
     {
       "id": "news-1",
-      "title": "The Quantum Leap: Global Markets React to First Commercial Fusion Milestone",
+      "title": "The Quantum Leap: Global  React to First Commercial Fusion Milestone",
       "content": "Scientists in Geneva confirm a sustained energy output that surpasses the ignition threshold, signaling a new era for clean energy and global geopolitical shifts. The experimental reactor, designated Helios-IV, maintained a fusion reaction for 48 consecutive hours, producing a net positive gain of 120 megawatts.\n\nIndustrial leaders are already calling it the 'Milestone of the Century.' Financial markets responded immediately, with renewable energy stocks surging and fossil fuel options experiencing a sharp correction. The geopolitical ramifications are expected to unfold over the next decade as nations adjust their energy independence strategies.\n\nFederal regulations are now being drafted to standardise commercial grid integration, marking the official transition of fusion from physics laboratories to municipal infrastructure.",
       "category": "Tech",
       "subcategory": "AI & MACHINE LEARNING",
       "status": "Published",
       "publishedAt": "2026-06-08T10:00:00.000Z",
       "scheduledAt": "",
-      "readTime": 8,
+      "readTime": 1,
       "image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBGhwO4HaDvObU4P_vEy51bfCpKIvgQAZiqOWptvydF0iv0muhM2H-OMj9S7RkHD1ugaKcsMXrjkFI8xUfszrbv97yJBrkqnVhP4PKRJFKQYfcgMKvdrDEV2AVkYe3ZMrKrcTwX1ynFA8HAIxCEZGjJzkor7S5AaB21KOp9K3gYjR1A6JgZsbxcfXuJCzy4i6n2eyq8iD9fRGJIGO7kV-MSve_DiSlvSy3FVNgth3WqYymWf4RJ-X482Zd0-tP16qQGPuCtQRFxDWHO",
       "author": {
         "name": "Elena Vance",

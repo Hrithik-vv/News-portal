@@ -372,7 +372,7 @@ app.put('/api/news/:id', authenticateToken, (req, res) => {
   }
   if (category) existingPost.category = category;
   if (subcategory !== undefined) existingPost.subcategory = subcategory;
-  if (image) existingPost.image = image;
+  if (image !== undefined) existingPost.image = image;
 
   // Handle status transitions
   if (status) {
