@@ -3,10 +3,18 @@
     {
       "id": "admin-1",
       "name": "Veniam eius illum ",
-      "email": "Dolore nihil et cons",
+      "email": "admin@example.com",
       "bio": "Nihil cum sunt faci",
       "avatar": "https://www.shutterstock.com/shutterstock/photos/2695542473/display_1500/stock-photo-portrait-of-confident-young-indian-business-executive-man-looking-at-camera-with-hands-folded-at-2695542473.jpg",
-      "password": "$2a$10$YC57H6dEmC7ZjGQk6rMG8OnlDbVieABHU/ui/.b6ZsKv6OA7KKrj6"
+      "password": "$2a$10$DVjCau1Alxzy8Fj9PJPUM./JxWMIzPCguWERhFlEdgBm6Gx9Xsj6"
+    },
+    {
+      "id": "admin-2",
+      "name": "News Admin",
+      "email": "newsAdmin",
+      "bio": "Default admin account",
+      "avatar": "https://images.stockcake.com/public/a/3/9/a398c3fc-790b-4c2c-8715-c8d5c627b08a_large/smiling-professional-man-stockcake.jpg",
+      "password": "$2a$10$wjw.OOL9/BNY0/JslgNLYu6VuPj/clkL181InMyDNMKBiRT.BgG02"
     }
   ],
   "news": [
