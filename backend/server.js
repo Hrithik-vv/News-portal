@@ -5,6 +5,11 @@ import jwt from 'jsonwebtoken';
 import bcrypt from 'bcryptjs';
 import dotenv from 'dotenv';
 import { readDatabase, writeDatabase } from './db.js';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 dotenv.config();
 
@@ -234,7 +239,7 @@ app.get('/api/news', (req, res) => {
       try {
         jwt.verify(token, JWT_SECRET);
         isAdmin = true;
-      } catch (e) {}
+      } catch (e) { }
     }
 
     if (!isAdmin) {
@@ -317,7 +322,7 @@ app.post('/api/news', authenticateToken, (req, res) => {
 
   // Generate unique ID
   const newId = `news-${Date.now()}`;
-  
+
   // Calculate read time roughly
   const wordCount = content.trim().split(/\s+/).length;
   const readTime = Math.max(1, Math.ceil(wordCount / 200));
@@ -413,6 +418,30 @@ app.delete('/api/news/:id', authenticateToken, (req, res) => {
 });
 
 // Start Server
-app.listen(PORT, () => {
-  console.log(`[PENOFT Server] Listening on http://localhost:${PORT}`);
-});
+// Serve built frontend in production (ESM compatible)
+if (process.env.NODE_ENV === 'production') {
+  const frontendDist = path.join(__dirname, '..', 'frontend', 'dist');
+  app.use(express.static(frontendDist));
+  app.get('*', (req, res) => {
+    res.sendFile(path.join(frontendDist, 'index.html'));
+  });
+} else {
+  // Safe startup – prevent EADDRINUSE on Nodemon restarts
+  if (!global.__serverInstance) {
+    global.__serverInstance = app.listen(PORT, () => {
+      console.log(`[PENOFT Server] Listening on http://localhost:${PORT}`);
+    });
+
+    const shutdown = () => {
+      if (global.__serverInstance) {
+        global.__serverInstance.close(() => {
+          console.log('Server closed');
+          global.__serverInstance = null;
+          process.exit(0);
+        });
+      }
+    };
+    process.on('SIGINT', shutdown);
+    process.on('SIGTERM', shutdown);
+  }
+}
