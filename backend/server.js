@@ -417,15 +417,7 @@ app.delete('/api/news/:id', authenticateToken, (req, res) => {
   res.json({ message: 'Article deleted successfully' });
 });
 
-// Serve built frontend in production (ESM compatible)
-if (process.env.NODE_ENV === 'production') {
-  const frontendDist = path.join(__dirname, '..', 'frontend', 'dist');
-  app.use(express.static(frontendDist));
-  // For any route not matched by the API, serve the React SPA
-  app.get('*', (req, res) => {
-    res.sendFile(path.join(frontendDist, 'index.html'));
-  });
-}
+
 
 // Always start listening (dev + production)
 app.listen(PORT, () => {
